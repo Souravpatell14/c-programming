@@ -10,11 +10,13 @@ int main()
     printf("enter the 3rd number");
     scanf("%d",&c);
     if(a>b)
-    if(a>c)
+    if(a>c){
     printf("%dis greatest",a);
     else
     printf("%d is greatest",c);
-    if(b>c)
+}
+    else
+    if(b>c){
     printf("%d is greatest",b);
     else
     printf("%d is greatest",c);
