@@ -22,3 +22,23 @@ int main()
 
     return 0;
 }
+
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the eligibility vote");
+    scanf("%d",&a);
+    if(a<18){
+    printf("eligible vote\n");
+    }
+   else{
+    printf("not eligible vote\n");
+        
+    }
+    return 0;
+}
