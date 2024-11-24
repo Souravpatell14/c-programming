@@ -87,3 +87,26 @@ else
 
     return 0;
 }
+
+(4) area of perameter 
+
+#include <stdio.h>
+
+int main()
+{
+   int l;
+   printf("enter the length ");
+   scanf("%d",&l);
+   int b;
+   printf("enter the breathe ");
+   scanf("%d",&b);
+   int  a = l * b;
+   int  p = 2 * (l+b);
+   if(a>p){
+       printf("area is greater than perameter ");
+   }
+   else{
+       printf("area is not greater than perameter ");
+   }
+    return 0;
+}
