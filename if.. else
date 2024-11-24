@@ -62,3 +62,28 @@ int main()
     return 0;
 }
 
+
+(3) profit loss 📉 
+
+include <stdio.h>
+
+int main()
+{
+    int sp,cp;
+    printf("enter the number sp");
+    scanf("%d",&sp);
+    
+    printf("enter the number cp ");
+    scanf("%d",&cp);
+    
+    if(sp<cp){
+        printf("profit");
+    }
+if(sp>cp){
+    printf("loss");
+}
+else
+    printf("no loss no profit");
+
+    return 0;
+}
