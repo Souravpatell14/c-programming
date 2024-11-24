@@ -1,3 +1,5 @@
+(1) even and odd 
+
 #include <stdio.h>
 
 int main()
