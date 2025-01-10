@@ -14,6 +14,7 @@ void America (){
 void India(){
     printf("you are India\n");
     America();
+    return;
 }
  
 
