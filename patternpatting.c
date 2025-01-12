@@ -1,4 +1,4 @@
-(1) 4 row & 4 column 
+(1)  row &  column 
 
 
 #include <stdio.h>
@@ -13,8 +13,8 @@ int main()
     printf("enter no of column");
     scanf("%d",&m);
     
-    for(int i=1;i<=n;i++){
-      for(int i=1;i<=m;i++){
+    for(int i=1;i<=n;i++){     // no of row
+      for(int i=1;i<=m;i++){   //no of column 
     printf("*");
     }
     printf("\n");
