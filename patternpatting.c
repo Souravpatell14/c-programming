@@ -14,7 +14,7 @@ int main()
     scanf("%d",&m);
     
     for(int i=1;i<=n;i++){     // no of row
-      for(int i=1;i<=m;i++){   //no of column 
+      for(int i=1;i<=m;i++){    //no of column 
     printf("*");
     }
     printf("\n");
