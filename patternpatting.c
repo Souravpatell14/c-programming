@@ -42,3 +42,28 @@ int main()
     return 0;
 }
 
+
+(3) row and column 
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("enter on of row");
+    scanf("%d",&n);
+    
+    int m;
+    printf("enter on of column ");
+    scanf("%d",&m);
+    
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=m;j++){
+            printf("%d ",j);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
