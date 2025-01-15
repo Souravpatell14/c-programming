@@ -387,3 +387,34 @@ int main()
 
     return 0;
 }
+
+
+(17) rhombus patting 
+
+
+#include <stdio.h>
+
+int main() {
+    int n,i,j,k;
+
+    // Input number of rows for the rhombus
+    printf("Enter the number of rows for the rhombus: ");
+    scanf("%d", &n);
+
+    // Printing the rhombus pattern
+    for (i = 1; i <= n; i++) { // Upper part of the rhombus
+        // Printing spaces
+        
+        for (j = 1; j <= n - i; j++) {
+            printf(" ");
+        }
+        
+        // Printing stars
+        for (k = 1; k <= n; k++) {
+            printf("*");
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
