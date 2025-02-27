@@ -90,3 +90,28 @@ int main()
    increasing(n);
 
     return 0;
+
+
+
+(4) sum return type
+
+
+#include <stdio.h>
+
+int sum(int n){
+    if(n==0 || n==1) return 1;
+    int recAns = n+sum(n-1);
+    return recAns;
+}
+
+int main()
+{
+    int n;
+    printf("enter the number");
+    scanf("%d",&n);
+    int add = sum(n);
+    printf("%d",add);
+
+    return 0;
+}
+
