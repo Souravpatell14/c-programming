@@ -65,3 +65,41 @@ int main()
     }
     return 0;
 }
+
+
+(4) transpose 
+
+#include <stdio.h>
+
+int main()
+{
+    int r, c;
+    
+    // Taking input for rows and columns
+    printf("Enter number of rows: ");
+    scanf("%d", &r);
+    
+    printf("Enter number of columns: ");
+    scanf("%d", &c);
+    
+    int arr[r][c]; // Defining the array
+    printf("Enter all elements:\n");
+    
+    // Taking input for the matrix
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            scanf("%d", &arr[i][j]);
+        }
+    }
+
+    // Printing the transposed matrix
+    printf("Transposed matrix:\n");
+    for (int i = 0; i < c; i++) {
+        for (int j = 0; j < r; j++) {
+            printf("%d ", arr[j][i]);
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
