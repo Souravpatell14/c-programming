@@ -25,3 +25,31 @@ int main()
     puts(str);
     return 0;
 }
+
+
+(3) reverse strings 
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+   char str[40];
+  puts("Enter a string");
+    scanf("%[^\n]s",str);
+// size
+   int size = 0;
+  int k=0;
+  while(str[k]!='\0'){
+ size++;
+  k++;
+  }
+  for(int i=0,j=size-1;i<=j;i++,j--){
+      char tamp = str[i];
+      str[i] = str[j];
+      str[j] = tamp;
+  }
+  puts("the reverse strings is:");
+  puts(str);
+    return 0;
+}
+
