@@ -104,7 +104,7 @@ int main()
     return 0;
 }
 
-(5)
+(5) transpose 2nd 
 
 #include <stdio.h>
 
