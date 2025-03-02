@@ -12,3 +12,16 @@ int main()
 }
     return 0;
 }
+
+
+(2) puts using
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char str[]="welcome to strings";
+    
+    puts(str);
+    return 0;
+}
